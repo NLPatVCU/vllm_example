@@ -23,7 +23,7 @@ This is a demo of how to use vllm to serve LLMs. This means you are sending requ
 - multi-GPU inference might be a thing, not sure. would make things fassst
 - when in doubt with main.py cli, ```python main.py -h``` should help
   
-For questions, comments, or suggestions email me at charliedil2019@gmail.com
+For questions, comments, or suggestions email me at ndil@vcu.edu
 
 Happy coding!
 
