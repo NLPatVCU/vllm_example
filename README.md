@@ -5,7 +5,7 @@ This is a demo of how to use vllm to serve LLMs. This means you are sending requ
 ## Prerequisites
 0. ```module load python/3.11```
 1. Install uv ```curl -LsSf https://astral.sh/uv/install.sh | sh```
-2. Create virtenv ```uv venv --python 3.11 --seed```
+2. Create virtualenv ```uv venv --python 3.11 --seed```
 3. Activate virtualenv ```source .venv/bin/activate```
 4. Install requests ```uv pip install requests```
 5. Install necessary components ```export UV_HTTP_TIMEOUT=600 #just in case``` ```uv pip install vllm --torch-backend=auto```
